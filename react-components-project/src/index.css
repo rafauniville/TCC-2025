@@ -1,0 +1,123 @@
+/* Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #444;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Estilizando o Formulário */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Títulos de seções */
+h3 {
+  margin-top: 20px;
+  color: #444;
+}
+
+/* Campos de Entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="checkbox"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Estilo para mensagens de erro */
+p {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Botão de Envio */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Link de navegação */
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout de campos do endereço */
+input[name="address.street"],
+input[name="address.number"],
+input[name="address.neighborhood"],
+input[name="address.city"],
+input[name="address.state"] {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+}
+
+input[name="address.city"] {
+  margin-right: 0;
+}
+
+@media (max-width: 600px) {
+  input[name="address.street"],
+  input[name="address.number"],
+  input[name="address.neighborhood"],
+  input[name="address.city"],
+  input[name="address.state"] {
+    width: 100%;
+    margin-right: 0;
+  }
+}

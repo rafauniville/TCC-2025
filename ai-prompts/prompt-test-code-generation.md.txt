@@ -1,0 +1,12 @@
+Com base no componente localizado em `src/pages/LoginPage`, siga as etapas abaixo para criar testes usando apenas com @testing-library/react e vitest:
+
+1. Analise o comportamento do componente passo a passo.
+2. Planeje quais comportamentos devem ser testados, incluindo:
+   - Casos comuns (uso típico)
+   - Limites (valores extremos)
+   - Entradas inválidas
+   - Casos especiais ou edge cases
+3. Após o planejamento, escreva os testes utilizando React Testing Library e Vitest.
+4. Por fim, faça uma autoavaliação: revise os testes criados e sugira melhorias ou aponte cenários que não foram cobertos.
+
+Código do componente:

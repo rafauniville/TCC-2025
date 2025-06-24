@@ -1,0 +1,14 @@
+Tarefa: Liste os casos de teste para o seguinte código.
+
+Instruções:
+1. Pense passo a passo: analise a lógica do código e identifique todos os comportamentos esperados e não esperados.
+2. Com base nisso, liste em linguagem natural os casos de teste relevantes, incluindo:
+   - Casos comuns (uso típico)
+   - Limites (valores extremos)
+   - Entradas inválidas
+   - Casos especiais ou edge cases
+3. Por fim, faça uma autoavaliação da lista gerada: verifique se há algo que possa ter sido esquecido ou mal classificado, e sugira correções ou adições se necessário.
+4. Não escreva código, apenas descreva os casos de teste.
+
+Código:
+[COLE O CÓDIGO AQUI]
