@@ -1,4 +1,4 @@
-# TCC - AI-Assisted Test Generation for React Components
+# TCC - Evaluation of Generative Artificial Intelligence in the Generation of Unit Tests for Front-End Applications
 
 This repository contains the full code, prompts, and test results for a research project that evaluates the use of artificial intelligence tools to automatically generate unit tests for React components.
 
